@@ -40,7 +40,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="/services"
+                  href="/services/custom-printing"
                   className="text-sm text-white/60 hover:text-white transition-colors"
                 >
                   Custom Printing
@@ -48,7 +48,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/services"
+                  href="/services/bulk-orders"
                   className="text-sm text-white/60 hover:text-white transition-colors"
                 >
                   Bulk Orders
@@ -56,7 +56,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/services"
+                  href="/services/design-assistance"
                   className="text-sm text-white/60 hover:text-white transition-colors"
                 >
                   Design Assistance
@@ -116,16 +116,16 @@ export function Footer() {
                   href="mailto:hello@pintora.ca"
                   className="text-sm text-white/60 hover:text-white transition-colors"
                 >
-                  hello@pintora.ca
+                  studio@pintora.ca
                 </a>
               </li>
               <li className="flex items-start gap-2">
                 <Phone size={16} className="mt-0.5 text-white/60 shrink-0" />
                 <a
-                  href="tel:+14165551234"
+                  href="tel:+16479013040"
                   className="text-sm text-white/60 hover:text-white transition-colors"
                 >
-                  (416) 555-1234
+                  (647) 901-3040
                 </a>
               </li>
             </ul>
