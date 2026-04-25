@@ -20,7 +20,7 @@ function FAQItem({ question, answer, isOpen, onClick }: FAQItemProps) {
       >
         <span className="text-lg text-[#1c1b21] pr-8">{question}</span>
         <ChevronDown
-          className={`w-5 h-5 text-[#1c1b21]/40 flex-shrink-0 transition-transform ${
+          className={`w-5 h-5 text-[#1c1b21]/40 shrink-0 transition-transform ${
             isOpen ? "rotate-180" : ""
           }`}
         />

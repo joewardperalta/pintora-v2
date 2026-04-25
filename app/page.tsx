@@ -267,7 +267,7 @@ export default function Home() {
               },
             ].map((collection, i) => (
               <div key={i} className="group cursor-pointer">
-                <div className="aspect-[4/5] bg-[#fafaf9] mb-4 overflow-hidden relative">
+                <div className="aspect-4/5 bg-[#fafaf9] mb-4 overflow-hidden relative">
                   <div className="absolute inset-0 flex items-center justify-center text-[#1c1b21]/20">
                     <Shirt className="w-24 h-24" />
                   </div>
